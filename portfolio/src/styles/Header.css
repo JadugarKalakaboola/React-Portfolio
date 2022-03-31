@@ -1,0 +1,25 @@
+.header-section{
+    font-family: 'Roboto Mono', monospace;
+    letter-spacing: large;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    padding: 1em 2em;
+    background: transparent;
+}
+
+.links-navbar{
+    list-style-type: none;
+    display: flex;
+}
+.links-navbar li{
+    padding: 0em 1.5em;
+    cursor: pointer;
+}
+.links-navbar li:hover{
+  color: #57dec1;
+}
+.logo-img{
+    width: 50px;
+    cursor: pointer;
+}

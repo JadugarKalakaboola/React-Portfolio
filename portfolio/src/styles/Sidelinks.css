@@ -1,0 +1,54 @@
+.sidelinks-section{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1rem;
+    color: var(--grey-text);
+}
+.right-links, .left-links{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+}
+.left-links{
+    bottom: 15%;
+    left: 4%;
+}
+.right-links{
+    bottom: 30%;
+    right: -2.7%;
+}
+.right-links .mail-link{
+    text-align: right;
+    transform: rotate(90deg);
+    letter-spacing: large;
+    cursor: pointer;
+    color: var(--grey-text);
+    text-decoration: none;
+}
+.right-links .mail-link:hover{
+    color: var(--glowing-text);
+}
+.icon svg{
+    fill: var(--grey-text);
+    width: 30px;
+    padding: 10px 0px;
+    cursor: pointer;
+}
+.icon svg:hover{
+    fill: var(--glowing-text);
+}
+
+.left-rule, .right-rule{
+    margin: 0px;
+    text-align: left;
+    width: 10%;
+    position: fixed;
+    transform: rotate(90deg);
+}
+.right-rule{
+    bottom: 0%;
+    right: 0%;
+}
+.left-rule{
+    bottom: 0%;
+    left: 0%;
+}
