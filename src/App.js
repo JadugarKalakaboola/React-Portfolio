@@ -12,6 +12,7 @@ function App() {
     function toggleTheme(){
         setDarkMode(prevState => !prevState)
     }
+
   const lightStyles = {
     backgroundColor: "#fff",
     color: "var(--dark-text)"
