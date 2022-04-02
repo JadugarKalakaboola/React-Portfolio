@@ -2,9 +2,9 @@
     max-width: 1000px;
     font-family: 'Roboto', monospace;
     margin: 0 auto;
-    padding-top: 100px;
+    padding: 100px 0px;
+    margin-bottom: 0px;
     font-size: 1.2rem;
-    height: 100vh;
 }
 .name{
     word-spacing: normal;
@@ -31,4 +31,18 @@ h1{
     line-height: 1.4em;
     font-size: 1rem;
     margin-top: 0px;
+}
+
+@media screen and (max-width: 600px){
+    .hero-section{
+        padding: 50px 20px;
+
+    }
+    .name{
+        margin-top: 0px;
+        line-height: 1em;
+    }
+    .sub-head{
+        font-size: 28px;
+    }
 }

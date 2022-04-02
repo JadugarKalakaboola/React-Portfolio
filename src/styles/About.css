@@ -1,7 +1,35 @@
 .about-section{
     max-width: 1000px;
     margin: 0 auto;
+    padding: 50px 0px;
 }
 .about-heading{
     display: inline;
+}
+
+.about-text{
+    width: 50%;
+    font-family: 'Inter', sans-serif;
+    color: var(--grey-text);
+
+}
+.medium-text{
+    color: var(--light-text);
+}
+
+@media screen and (max-width: 600px){   
+    .about-section{
+        padding: 50px 20px;
+
+    }
+    .name{
+        margin-top: 0px;
+        line-height: 1em;
+    }
+    .sub-head{
+        font-size: 28px;
+    }
+    .about-text{
+        width: 100%;
+    }
 }

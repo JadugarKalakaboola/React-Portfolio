@@ -23,3 +23,24 @@
     width: 50px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 600px) {
+    .header-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 2em 0em;
+    }
+    .links-navbar{
+        margin: 0 auto;
+        width: 80%;
+        padding: 0px 1em;
+        justify-content: space-between;
+    }
+    .links-navbar li{
+        padding: 0em 0em;
+    }
+    li .numbers{
+        display: none;
+    }
+  }

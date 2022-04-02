@@ -9,8 +9,10 @@ export default function Hero(props){
     const darkStyles = {
         color: "var(--light-text)"
     }
+    const [width , setWidth] = React.useState(window.innerWidth)
+    
     return(
-        <div className='hero-section'>
+        <div className='hero-section section'>
             <p className="green-text medium" style= {{color:!props.dark ? Colors.blue : Colors.green}}>Hi, my name is</p>
             <h2 className='name big-text' style={!props.dark ? lightStyles : darkStyles}>Siddharth Sharma.</h2>
             <h2 className='sub-head big-text'>I build things for the web.</h2>
