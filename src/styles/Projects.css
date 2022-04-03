@@ -1,0 +1,42 @@
+.project-section{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+.project-grid{
+    padding: 50px 0px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    column-gap: 50px;
+    row-gap: 50px;
+}
+.project-skill, .project-link{
+    padding: 0.25em 0.75em 0.25em 0em;
+}
+.project{
+    padding: 20px;
+    border: 1px solid wheat;
+}
+.project-link{
+    color: var(--glowing-text);
+    text-decoration: none;
+}
+.project-link:hover{
+    color: var(--grey-text);
+}
+
+.view-more{
+    text-align: center;
+}
+
+@media screen and (max-width: 600px){
+    .project-section{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .project-grid{
+        width: 90%;
+        grid-template-columns: 90%;
+        margin: 0 auto;
+    }
+}

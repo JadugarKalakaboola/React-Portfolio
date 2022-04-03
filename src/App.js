@@ -5,6 +5,7 @@ import Footer from './components/Footer'
 import Sidelinks from './components/Sidelinks';
 import Hero from './components/Hero';
 import About from './components/About';
+import Projects from './components/Projects';
 
 
 function App() {
@@ -33,6 +34,8 @@ function App() {
       <Sidelinks />
       <hr></hr>
       <About />
+      <hr></hr>
+      <Projects />
       <Footer />
     </div>
   )
