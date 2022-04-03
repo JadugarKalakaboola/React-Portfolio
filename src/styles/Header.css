@@ -5,7 +5,7 @@
     justify-content: space-between;
     font-size: 1rem;
     padding: 1em 2em;
-    background: transparent;
+    background-color: "rgb(204,214,246)";
 }
 
 .links-navbar{
@@ -22,6 +22,10 @@
 .logo-img{
     width: 50px;
     cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: var(--grey-text);
 }
 
 @media screen and (max-width: 600px) {

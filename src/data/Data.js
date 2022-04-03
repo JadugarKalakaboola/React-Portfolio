@@ -9,43 +9,49 @@ export default {
             desc: "A business card made with react that informs about the person. First React Project",
             livelink : "live link",
             github : "github link",
-            skills : ["React", "CSS"]
+            skills : ["React", "CSS"],
+            launched : true
         },
         {
             name : "Bored bot",
             desc: "This application uses the bored API to fetch Ideas of what to do when you get bored",
             livelink : "live link",
             github : "github link",
-            skills : ["HTML", "CSS", "Javascript", "API"]
+            skills : ["HTML", "CSS", "Javascript", "API"],
+            launched : true
         },
         {
             name : "Stone Paper Scissors",
             desc: "Fun stone paper scissors game which also tells your luck for the day",
             livelink : "live link",
             github : "github link",
-            skills : ["HTML", "CSS", "Javascript"]
+            skills : ["HTML", "CSS", "Javascript"],
+            launched : true
         },
         {
             name : "BlackJack Game",
             desc: "BlackJack! Play this game, get a total of 21 or else lose everything you have",
             livelink : "live link",
             github : "github link",
-            skills : ["HTML", "CSS", "Javascript"]
+            skills : ["HTML", "CSS", "Javascript"],
+            launched : true
         },
         {
             name : "Retro Snake Game",
             desc: "ssss! Experience the snake game made with javascript right on your computer",
             livelink : "live link",
             github : "github link",
-            skills : ["HTML", "CSS", "Javascript", "API"]
+            skills : ["HTML", "CSS", "Javascript", "API"],
+            launched : true
         },
         {
             name : "Meme Generator",
             desc: "This app will allow you to use your imagination and create memes yourself",
             livelink : "live link",
             github : "github link",
-            skills : ["React", "CSS", "API"]
-            
+            skills : ["React", "CSS", "API"],
+            launched : false
         }
-    ]
+    ],
+    skills : ["HTML", "CSS", "Javascript", "React", "Python", "SQL", "Tailwind CSS" ]
 }

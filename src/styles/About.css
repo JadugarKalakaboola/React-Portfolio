@@ -16,7 +16,11 @@
 .medium-text{
     color: var(--light-text);
 }
-
+.about-sub-head{
+    color: var(--light-text);
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
 @media screen and (max-width: 600px){   
     .about-section{
         padding: 50px 20px;

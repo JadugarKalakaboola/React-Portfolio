@@ -8,7 +8,7 @@ export default function Projects(){
     const projectsEl = projects.map((project, key) => {
         return(
             <div className='project'>
-                <p className='sub-head'>{project.name}</p>
+                <p className='project-head'>{project.name}</p>
                 <p className='text'>{project.desc}</p>
                 {
                     Skills = project.skills.map(skill => {
@@ -19,12 +19,13 @@ export default function Projects(){
                 }
                 <br></br>
                 <br></br>
-                <a href={project.livelink} className="project-link">Live Link</a>| <a href={project.github} className="project-link">Github link</a>
+                {project.launched && <div><a href={project.livelink} className="project-link">Live Link</a>| <a href={project.github} className="project-link">Github link</a></div>}
+                {!project.launched && <div>Coming Soon</div>}
             </div>
         )
     })
     return(
-        <div className='project-section'>
+        <div className='project-section' id='project-section'>
             <h1 className='medium-text'>Projects</h1>
             <div className='project-grid'>
                 {projectsEl}

@@ -28,6 +28,10 @@
 .view-more{
     text-align: center;
 }
+.project-head{
+    color: var(--light-text);
+    font-size: 1.3rem;
+}
 
 @media screen and (max-width: 600px){
     .project-section{
