@@ -16,9 +16,9 @@ export default function About(){
                 <br></br>
                 <h1 className='sub-head'>Future Plans</h1>
                 <br></br>
-                <p className='section-text'>Learning : Python • Node • C++ • Game develoment</p>
+                <p className='section-text'>Learning : Python • Node • C++ • Game develoment • React Native</p>
                 <p className='section-text'>FreeLancing</p>
-                <p className='section-text'>Particiating in Tons of events</p>
+                <p className='section-text'>Participating in Tons of events</p>
             </p>
         </div>
     )

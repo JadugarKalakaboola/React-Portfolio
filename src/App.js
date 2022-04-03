@@ -30,6 +30,7 @@ function App() {
       
       <Header dark={DarkMode} onclick={toggleTheme} />
       <Hero dark={DarkMode} />
+      <Sidelinks />
       <hr></hr>
       <About />
       <Footer />

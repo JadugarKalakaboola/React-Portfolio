@@ -2,16 +2,11 @@ import React from 'react'
 import '../styles/Header.css'
 
 export default function Header(props){
-    const ScreenSizeDetector = require('screen-size-detector');
-    // or
-    //import ScreenSizeDetector from 'screen-size-detector';
-
-    const screen = new ScreenSizeDetector(); // Default options
 
     return(
         <div className='header-section'>
             <div className='left-logo'>
-             {screen.width>800 && <img src="s-logo.png" className="logo-img"/>}
+            <img src="s-logo.png" className="logo-img"/>
             </div>
             <div>
                 <ul className='links-navbar'>

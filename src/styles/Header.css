@@ -43,4 +43,7 @@
     li .numbers{
         display: none;
     }
+    .logo-img{
+        display: none;
+    }
   }

@@ -1,0 +1,17 @@
+.footer-section{
+    margin: 0 auto;
+    text-align: center;
+    padding: 0px;
+}
+.top-line,
+.bottom-line{
+    padding: 0px;
+    line-height: 0px;
+}
+
+.bottom-line{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    margin: 0 auto;
+}
