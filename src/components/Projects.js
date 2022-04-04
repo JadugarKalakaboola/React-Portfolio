@@ -19,7 +19,7 @@ export default function Projects(){
                 }
                 <br></br>
                 <br></br>
-                {project.launched && <div><a href={project.livelink} className="project-link">Live Link</a>| <a href={project.github} className="project-link">Github link</a></div>}
+                {project.launched && <div><a href={project.livelink} target="_blank" className="project-link">Live Link</a>| <a href={project.github} className="project-link">Github link</a></div>}
                 {!project.launched && <div>Coming Soon</div>}
             </div>
         )

@@ -7,40 +7,40 @@ export default {
         {
             name : "React Business Card",
             desc: "A business card made with react that informs about the person. First React Project",
-            livelink : "live link",
-            github : "github link",
+            livelink : "https://business-card-theta.vercel.app/",
+            github : "https://github.com/JadugarKalakaboola/BusinessCard.git",
             skills : ["React", "CSS"],
             launched : true
         },
         {
             name : "Bored bot",
             desc: "This application uses the bored API to fetch Ideas of what to do when you get bored",
-            livelink : "live link",
-            github : "github link",
+            livelink : "https://b-bot-woad.vercel.app/",
+            github : "https://github.com/JadugarKalakaboola/B-Bot.git",
             skills : ["HTML", "CSS", "Javascript", "API"],
             launched : true
         },
         {
             name : "Stone Paper Scissors",
             desc: "Fun stone paper scissors game which also tells your luck for the day",
-            livelink : "live link",
-            github : "github link",
+            livelink : "https://rock-paper-scissors-bay-kappa.vercel.app/",
+            github : "https://github.com/JadugarKalakaboola/Rock-Paper-Scissors.git",
             skills : ["HTML", "CSS", "Javascript"],
             launched : true
         },
         {
             name : "BlackJack Game",
             desc: "BlackJack! Play this game, get a total of 21 or else lose everything you have",
-            livelink : "live link",
-            github : "github link",
+            livelink : "",
+            github : "",
             skills : ["HTML", "CSS", "Javascript"],
             launched : true
         },
         {
             name : "Retro Snake Game",
             desc: "ssss! Experience the snake game made with javascript right on your computer",
-            livelink : "live link",
-            github : "github link",
+            livelink : "http://snakemaster.vercel.app",
+            github : "https://github.com/JadugarKalakaboola/Retro-Snake-Game.git",
             skills : ["HTML", "CSS", "Javascript", "API"],
             launched : true
         },
@@ -53,5 +53,10 @@ export default {
             launched : false
         }
     ],
-    skills : ["HTML", "CSS", "Javascript", "React", "Python", "SQL", "Tailwind CSS" ]
+    skills : ["HTML", "CSS", "Javascript", "React", "Python", "SQL", "Tailwind CSS" ],
+    links : {
+        github : "https://github.com/JadugarKalakaboola",
+        twitter : "https://twitter.com/Siddhar60883754",
+        instagram : ""
+    }
 }
